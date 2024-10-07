@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    gap: 5px;
+    margin: 20px auto;
+}
+
+.candy {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    touch-action: manipulation;
+}
+
+.candy-1 {
+    background-color: #FF5733;
+}
+
+.candy-2 {
+    background-color: #33FF57;
+}
+
+.candy-3 {
+    background-color: #3357FF;
+}
+
+.candy-4 {
+    background-color: #FF33A6;
+}
+
+.candy-5 {
+    background-color: #FFBD33;
+}
+
+.candy-6 {
+    background-color: #8E33FF;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+#game-info {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
